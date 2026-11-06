@@ -1,0 +1,7 @@
+string texto = "GATO;7";
+int pocision = texto.IndexOf(';');
+string pos1 = texto.Substring(0, pocision);
+string pos2 = texto.Substring(pocision + 1);
+
+Console.WriteLine(pos1);
+Console.WriteLine(pos2);
